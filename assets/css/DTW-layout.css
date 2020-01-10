@@ -1,0 +1,117 @@
+/* Table of content */
+
+/*===================================
+1. General
+2. layout
+3. navigatie
+4. section
+5. slider
+==================================== */
+
+/* ===================================
+1. General
+==================================== */
+
+body {
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.6em;
+    color: #656565;
+  }
+  
+  a:active {
+    outline: 0;
+  }
+
+  /* ===================================
+2. layout
+==================================== */
+
+.container {
+    padding: 0 20px 0 20px;
+    position: relative;
+  }
+  
+  #wrapper {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .top-header{
+    background:rgba(255,85,5,0.7);
+  }
+
+  .top-button{
+    background:#005290;
+    margin:5px;
+    color:#fff;
+    border-radius:15px;
+    
+  }
+
+  /* ===================================
+3. navigatie
+==================================== */
+  .bg-light{
+      background-color:#fff !important;
+  }
+
+  .navbar-brand{
+      margin-right:3rem !important;
+  }
+
+  .navigation-wrapper{
+      border:solid red 1px;
+
+  }
+
+
+  /* ===================================
+4. Section: Featured
+==================================== */
+
+#featured {
+    background: #d11919;
+    position: relative;
+    margin: 0;
+    padding: 0;
+  }
+
+    /* ===================================
+5. Slider
+==================================== */
+
+.sl-slider-wrapper {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+
+.sl-slider {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/* Slide wrapper and slides */
+
+.sl-slide,
+.sl-slides-wrapper,
+.sl-slide-inner {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+
+.sl-slide {
+	z-index: 1;
+}
+
+
+
