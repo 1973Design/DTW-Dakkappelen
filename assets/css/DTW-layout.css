@@ -6,6 +6,9 @@
 3. navigatie
 4. section
 5. slider
+6. Banner block home
+7. Items block home
+8. Footer blok
 ==================================== */
 
 /* ===================================
@@ -24,7 +27,7 @@ body {
     outline: 0;
   }
 
-  /* ===================================
+/* ===================================
 2. layout
 ==================================== */
 
@@ -40,7 +43,8 @@ body {
   }
 
   .top-header{
-    background:rgba(255,85,5,0.7);
+    xbackground:rgba(255,85,5,0.7);
+    background:rgba(255,221,0,0.7);
   }
 
   .top-button{
@@ -51,7 +55,66 @@ body {
     
   }
 
-  /* ===================================
+  .button-offerte{
+    background:rgba(255,221,0,1.0);
+    color:#005290;
+    margin:10px;
+    border-radius:5px;
+    font-weight: 600;
+    transition: ease-out;
+   
+  }
+
+  .button-offerte:hover{
+    color:rgba(48,94,169,0.8);
+    transition-duration: 1.0s;
+  }
+
+  h1{
+    font-size:1.5rem;
+    padding:5px;
+  }
+  h2{
+    font-size: 1.4rem;
+    padding:5px;
+  }
+  h3{
+    font-size:1.3rem;
+    padding:5px;
+  }
+  .secondary{
+    color:#6ebd47;
+  }
+  .tertaire{
+    color:#fff;
+  }
+  p{
+    padding:5px 20px 5px 5px;
+  }
+
+  strong{
+    font-weight: 600;
+  }
+
+  a, a:hover, a:focus{
+    color:#005290;
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  ul{
+    list-style: none;
+  }
+  ul.check li:before{
+ content: "\f14a";
+ font: normal normal normal 14px/1 FontAwesome;
+ padding-right: 5px;
+ color:#6ebd47;
+  }
+  li{
+
+  }
+/* ===================================
 3. navigatie
 ==================================== */
   .bg-light{
@@ -63,23 +126,23 @@ body {
   }
 
   .navigation-wrapper{
-      border:solid red 1px;
+
 
   }
 
 
-  /* ===================================
+/* ===================================
 4. Section: Featured
 ==================================== */
 
 #featured {
-    background: #d11919;
     position: relative;
     margin: 0;
     padding: 0;
   }
 
-    /* ===================================
+
+/* ===================================
 5. Slider
 ==================================== */
 
@@ -114,4 +177,162 @@ body {
 }
 
 
+/* ===================================
+6. Banner block home
+==================================== */
+.banner-home{
+  background: #f2f2f2;
+  margin-bottom:10px;
+}  
+.banner-block .banner-block-content{
+    position: relative;
+    xbackground:rgba(255,85,5,1.0);
+    background:rgba(255,221,0,0.7);
+    width: 300px;
+    height:80px;
+    display:inline-block;
+    text-decoration: none;
+    padding: 1rem;
+  }
+  .banner-block .banner-block-content .content{
+    font-size: 1.1rem;
+    text-align:center;
+    position: absolute;
+    top:-0.5rem;
+    left:4.0rem;
+   
+  }
+  .banner-block-content > .icon{
+    font-size: 2.5rem;
+    float: left;
+    text-align:center;
+  }
+  .banner-block .banner-block-content:before{
+    content:"";
+    width: 26px;
+    height: 80px;
+    display:block;
+    right:0;
+    position:absolute;
+    color:#f2f2f2;
+    z-index:1;
 
+  }
+  .banner-block .banner-block-content:after{
+    display:block;
+    content:"";
+    width:0;
+    height:0;
+    position:absolute;
+    border-top: 36px solid transparent;
+    border-bottom: 36px solid transparent;
+    border-right: 36px solid #f2f2f2;
+    xborder:solid 5px red;
+    right:0;
+    top:4px;
+  }
+.banner-block-content{
+  margin:0 auto;
+    color:#005290;
+  }
+/* ===================================
+7. Items block home
+==================================== */
+
+.blok{
+  min-height: 300px;
+  margin-bottom:20px;
+}
+
+.blok-wit{
+padding:15px;
+}
+
+.blok, .blok-wit{
+  border:solid 1px #edf0f0;
+  position:relative;
+}
+.blok img, .blok-wit img{
+  width:100%;
+}
+
+.blok-text h2{
+  font-size:1.3em;
+  margin-top:5px;
+}
+
+.blok-wit a.btn{
+  position:relative;
+  background:#005290;
+  color:#fff !important;
+  top:2rem;
+  left:5.5rem;
+  font-size:1em;
+  display: inline-block;
+  transition: ease-out 0.5s;
+  z-index:1;
+}
+.blok-wit a.btn:after{
+  display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: "\f105";
+    margin-left: 5px;
+    z-index:-2;
+}
+
+.blok-wit a.btn:before{
+  content:"";
+  position:absolute;
+  z-index:-1;
+  left:0px;
+  bottom:0px;
+  background:rgba(48,94,169,0.8);
+  transition:ease-out .5s;
+  width: 0%;
+  height: 100%;
+}
+
+.blok-wit a.btn:hover{
+  background:#005290;
+}
+
+.blok-wit a.btn:hover:before{
+  width: 100%;
+}
+
+/* ===================================
+7. Items content home
+==================================== */
+.content{
+  margin-top:2rem;
+}
+
+.content-l, .content-r{
+  border:solid 1px #edf0f0;
+  padding:10px;
+}
+div.subcontent > p{
+  margin-left: 35px;
+
+}
+
+.bold{
+  font-weight: 600;
+}
+
+article.home-content{
+  margin:10px 0px;
+  padding:10px 0px;
+  background:#f2f2f2;
+}
+
+/* ===================================
+8. Footer blok
+==================================== */
+.footer-blok{
+  background:#656565;
+}
