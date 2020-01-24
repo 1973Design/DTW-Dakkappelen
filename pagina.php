@@ -84,94 +84,17 @@
                     </div>
                 </div>
             </header>
-            <section id="featured" class="slitslider">
-                <!-- slitslider -->
-                <div id="slider" class="sl-slider-wrapper">
-
-                    <div class="sl-slider">
-                        
-                        <div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="-25" data-slice2-rotation="-25" data-slice1-scale="2" data-slice2-scale="2">
-                            <div class="sl-slide-inner">
-                                <div class="bg-img bg-img-1"></div>
-                                    <h2>Kwaliteit</h2>
-                                    <blockquote><p>Een dakraam plaatsen valt en staat met de juiste afwerking</p></blockquote>
-                                </div>
-                            </div>
-                            
-                            <div class="sl-slide" data-orientation="vertical" data-slice1-rotation="10" data-slice2-rotation="-15" data-slice1-scale="1.5" data-slice2-scale="1.5">
-                                <div class="sl-slide-inner">
-                                    <div class="bg-img bg-img-2"></div>
-                                    <h2>Daglicht</h2>
-                                    <blockquote><p>Breng dachtlicht in uw huis</p></blockquote>
-                                </div>
-                            </div>
-                            
-                            <div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="3" data-slice2-rotation="3" data-slice1-scale="2" data-slice2-scale="1">
-                                <div class="sl-slide-inner">
-                                    <div class="bg-img bg-img-3"></div>
-                                    <h2>Montage partner</h2>
-                                    <blockquote><p>Montage partner van VELUX, FAKRO en Baskapel</blockquote>
-                                </div>
-                            </div>
-                            
-                            <div class="sl-slide" data-orientation="vertical" data-slice1-rotation="-5" data-slice2-rotation="25" data-slice1-scale="2" data-slice2-scale="1">
-                                <div class="sl-slide-inner">
-                                    <div class="bg-img bg-img-4"></div>
-                                    <h2></h2>
-                                    <blockquote><p></p></blockquote>
-                                </div>
-                            </div>
-                            
-                            <div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="-5" data-slice2-rotation="10" data-slice1-scale="2" data-slice2-scale="1">
-                                <div class="sl-slide-inner">
-                                    <div class="bg-img bg-img-5"></div>
-                                    <h2></h2>
-                                    <blockquote><p></p></blockquote>
-                                </div>
-                            </div>
-                        </div><!-- /sl-slider -->
-
-                        <nav id="nav-dots" class="nav-dots">
-                            <span class="nav-dot-current"></span>
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                        </nav>
-
-			        </div><!-- /slider-wrapper -->
-                 <!-- end slitslider -->
+            <section id="featured">
+                <!-- foto banner -->
+                <div class="row d-flex  banner-page">
+                    <div>
+                        <a href="#" class="btn button button-banner"> <i class="fas fa-file-invoice"></i> Vraag vrijblijvend een offerte aan  </a>
+                        <a href="#" class="btn button button-banner"> <i class="fas fa-phone"></i> Bel mij terug op een ander tijdstip </a>
+                    </div>
+                   
                 </div>
-                <!--banner block-->
-                <div class="row d-flex justify-content-center banner-home">
-                    <div class="banner-block">
-                        <div class="p-4">
-                            <div class="banner-block-content">
-                            <span class="icon"><i class="fas fa-check"></i></span> 
-                            <span class="content">Tevreden klanten</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="banner-block">
-                        <div class="p-4">
-                            <div class="banner-block-content">
-                            <span class="icon"><i class="fas fa-angle-double-right"></i> </span>
-                            <span class="content">15 jaar ervaring</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="banner-block">
-                        <div class="p-4">
-                            <div class="">
-                                <div class="banner-block-content" >
-                                    <span class="icon"><i class="fas fa-certificate fas-size"></i></span>
-                                     <span class="content">Gecertificeerd partner</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--end banner block-->
+               <!-- end foto banner -->
+              
                 <!-- info items -->
                 <div class="container">
                     <div class="row">
@@ -306,8 +229,8 @@
                             </div>
                         </div>
                         <div class="col-xs-12 col-md-4">
-                            <a href="#" class="btn button button-offerte"> <i class="fas fa-file-invoice"></i> Vraag vrijblijvend een offerte aan  </a>
-                            <a href="#" class="btn button button-offerte"> <i class="fas fa-phone"></i> Bel mij terug op een ander tijdstip</a>
+                            <a href="#" class="btn button-offerte"> <i class="fas fa-file-invoice"></i> Vraag vrijblijvend een offerte aan  </a>
+                            <a href="#" class="btn button-offerte"> <i class="fas fa-phone"></i> Bel mij terug op een ander tijdstip</a>
                         </div>
                         <div class="col-xs-12 col-md-4">
                             

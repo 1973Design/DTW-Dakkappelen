@@ -1,0 +1,27 @@
+/* Table of content */
+
+/*===================================
+1. General
+2. layout
+
+==================================== */
+
+/* ===================================
+1. General
+==================================== */
+.banner-page{
+  background:url("../../images/banners/dakkapel-banner.jpg") no-repeat center;
+  background-size: cover;
+  margin-bottom:10px;
+  min-height: 300px;
+} 
+
+/* ===================================
+2. layout
+==================================== */
+
+.button-banner{
+  transform: translateX(50%);
+  display: block;
+ opacity: 0.8;
+ }
