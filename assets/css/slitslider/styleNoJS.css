@@ -15,8 +15,12 @@
 	background: #fff;
 } 
 
+.demo-1 .sl-slide blockquote {
+	width: 50%;
+	left: 25%;
+}
 
-.slitslider .bg-img {
+.demo-2 .bg-img {
 	padding: 0;
 	top: 0;
 	left: 0;

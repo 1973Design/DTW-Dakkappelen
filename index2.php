@@ -1,6 +1,6 @@
 <html>
 <head>
-    <title>DTW Dakramen - Velux - Fakro - Baskapel</title>
+    <title>DTW Timmerwerken</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="DTW Timmerwerken uw specialist in het plaatsen van dakramen maar ook verbouw en nieuwbouw porjecten. Vakmanschap - Scherpe prijs">
@@ -37,7 +37,49 @@
                 <div class="navigation-wrapper">
                     <div class="container">
                         <!-- start navigation -->
-                        <?php include '_nav.php';?>
+                        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                            <a class="navbar-brand" href="index.php" title="homepage dtw dakkapel"><img src="images/algemeen/logo.png" alt="logo dtwdakkapel"></a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item active">
+                                        <a class="nav-link" href="index.php">Home <span class="sr-only"></span></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Over DTWdakramen</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">VELUX</a>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#p">FAKRO</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Baskapel</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Portfolio</a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            Advies
+                                        </a>
+                                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                            <a class="dropdown-item" href="#">Onderhoud</a>
+                                            <a class="dropdown-item" href="#">Renovatie</a>
+                                            <a class="dropdown-item" href="#">vergunning</a>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="contact.php">Prijzen</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="contact.php">Contact</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
                             <!-- END navigation -->
                     </div>
                 </div>
@@ -60,7 +102,7 @@
                                 <div class="sl-slide-inner">
                                     <div class="bg-img bg-img-2"></div>
                                     <h2>Daglicht</h2>
-                                    <blockquote><p>Een dakraam brengt daglicht in uw huis</p></blockquote>
+                                    <blockquote><p>Breng dachtlicht in uw huis</p></blockquote>
                                 </div>
                             </div>
                             
@@ -148,7 +190,7 @@
                         <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
                             <div class="blok blok-wit">
                                 <a href="" title="">
-                                    <img src="images/items/dakraam-advies.png" alt="Advies bij het plaatsen van een dakraam" class="info-img">
+                                    <img src="images/items/item1.png" alt="" class="info-img">
                                 </a>
                                 <div class="blok-text">
                                     <h2>Vrijblijvend advies</h2>
@@ -160,7 +202,7 @@
                         <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
                             <div class="blok blok-wit">
                                 <a href="" title="">
-                                    <img src="images/items/dakraam-stappen-plan.png" alt="stappen plan aanschaf dakraam" class="info-img">
+                                    <img src="images/items/item1.png" alt="" class="info-img">
                                 </a>
                                 <div class="blok-text">
                                     <h2>Stappenplan aanschaf dakraam</h2>
@@ -172,7 +214,7 @@
                         <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
                             <div class="blok blok-wit">
                                 <a href="" title="">
-                                    <img src="images/items/dakraam-offerte.png" alt="Offerte aanvragen" class="info-img">
+                                    <img src="images/items/item1.png" alt="" class="info-img">
                                 </a>
                                 <div class="blok-text">
                                     <h2>Vrijblijvende offerte</h2>
@@ -249,9 +291,30 @@
                 </article>
                 
             </section>
-            <!-- footer section -->
-        <?php include '_footer.php';?>
-        <!-- end footer section -->
+            <footer class="footer-blok">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 col-md-4">
+                            <div class="tertaire">
+                                <h3>Contactgegevens</h3>
+                                <strong>DTWdakramen</strong><br>
+                                    KvK:37128304<br/>
+                                    BTW: <br/>
+                                    info@dtwdakramen.nl<br/>
+                                    Tel: 0623582650
+                                
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-md-4">
+                            <a href="#" class="btn button button-offerte"> <i class="fas fa-file-invoice"></i> Vraag vrijblijvend een offerte aan  </a>
+                            <a href="#" class="btn button button-offerte"> <i class="fas fa-phone"></i> Bel mij terug op een ander tijdstip</a>
+                        </div>
+                        <div class="col-xs-12 col-md-4">
+                            
+                        </div>
+                    </div>
+                </div>
+            </footer>
         </div>
     </main>   
        

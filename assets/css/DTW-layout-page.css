@@ -25,3 +25,52 @@
   display: block;
  opacity: 0.8;
  }
+
+ .contentpage{
+   padding:0px 10px 0px 0px;
+ }
+
+ ul.list li:before{
+   content:"\f061";
+   font:normal normal normal 14px/1 FontAwesome;
+   padding-right: 5px;
+   color:rgba(255,221,0,1.0);
+ }
+
+ h1.heading{
+  color:rgba(255,221,0,1.0);
+  margin-left:15%;
+  font-size: 3em;
+  display: block;
+  font-family:'Quicksand', Open Sans, Arial;
+  width: 500px;
+ }
+
+ h1{
+  font-size:1.5rem;
+  padding:5px;
+}
+h2{
+  font-size: 1.4rem;
+  padding:5px;
+}
+h3{
+  font-size:1.3rem;
+  padding:5px;
+}
+
+h4{
+  font-size:1.15rem !important;
+  margin-top:0.5rem;
+  color:#005290;
+  
+}
+
+ h3.footer{
+   padding:0px;
+   margin-top:5px;
+ }
+
+ h4{
+
+ }

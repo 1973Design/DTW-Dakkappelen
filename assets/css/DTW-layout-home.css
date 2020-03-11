@@ -91,9 +91,10 @@ body {
   .secondary{
     color:#6ebd47;
   }
-  .tertaire{
+  .tertaire, .tertaire a, .tertaire a:hover{
     color:#fff;
   }
+
   p{
     padding:5px 20px 5px 5px;
   }
