@@ -18,8 +18,8 @@
             </div>
             <div class="col-xs-12 col-md-4">
                 <div class="tertaire">
-                    <a href="" target="_blank" ><i class="fab fa-facebook-square"></i> Facebook</a><br/>
-                    <a href="" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+                    <a href="https://www.facebook.com/dtwtimmerwerken.nl/" target="_blank" title="facebook dtwtimmerwerken"><i class="fab fa-facebook-square"></i> Facebook</a><br/>
+                    <a href="https://www.instagram.com/dtwtimmerwerken.nl/" target="_blank" title="instagram dtwtimmerwerken"><i class="fab fa-instagram"></i> Instagram</a>
                 </div>
             </div>
         </div>

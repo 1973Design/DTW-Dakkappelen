@@ -44,61 +44,64 @@
             </header>
             <section id="featured">
                 <!-- foto banner -->
-                <div class="row d-flex  banner-page">
-                    <div>
-                        <h1 class="heading">Contact Opnemen</h1>
-                    </div>
-                   
-                </div>
+                <?php include '_header-buttons.php';?>
                <!-- end foto banner -->
               
                 <!-- info items -->
                 <div class="container">
-                    <div class="row justify-content-center">
-                        <!-- start form -->
-                        <div class="col-md-6 col-xsm-12">
-                            <div>
-                                <h2>Contact of offerte aanvragen?</h2>
-                                <p><strong>Vragen</strong> over het plaatsen van een dakraam of een <strong>offerte</strong> aanvragen? Vul onderstaande formulier in en wij nemen z.s.m. contact met u op.</p>
-                                <form method="post" action="form-to-email.php" name="myemailform">
-                                    <div class="form-group">
-                                        <label for="visitor_email">Email address</label>
-                                        <input type="email" name="visitor_email" class="form-control" id="exampleFormControlInput1" placeholder="naam@voorbeeld.com | type hier uw e-mail adres">
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="question">Vraag over:</label>
-                                        <select class="form-control" name="question" id="exampleFormControlSelect1">
-                                            <option>Dakramen Algemeen</option>
-                                            <option>VELUX dakraam</option>
-                                            <option>Fakro dakraam</option>
-                                            <option>Baskapel dakraam</option>
-                                            <option>Offerte aanvraag</option>
-                                        </select>
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="message">Opmerking:</label>
-                                        <textarea class="form-control" name="message" id="exampleFormControlTextarea1" rows="5"></textarea>
-                                    </div>
-                                    <button type="submit" class="btn btn-primary mb-2">Verstuur formulier</button>
-                                </form>
-                                <br/><br/>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-6">
+                            <h2>Vergunning dakramen?</h2>
+                            <div class="contentpage">
+                               <p>
+                                <strong>In heel veel gevallen is het plaatsen van een dakraam omgevingsvergunningsvrij, maar er zijn ook uitzonderingen</strong><br/>
+                                Mensen woonend in rijksmomument, gemeentelijke momument of in een rijksbeschermd stads- of dorpsgezicht kunnen niet vergunnigsvrij worden geplaatst. In
+                                dat geval is handig om contact op te nemen met de gemeente en te vragen naar de persoon die de monumentenzorg behandelt.
+                                <h4>Omgevingsvergunningsvrij</h4>
+                                Is dit bij u niet het geval dan kunt u in de meeste gevallen uw dakraam omgevingsvergunningsvrij bouwen. Hiervoor zijn een paar spelregels:
+                                <ol>
+                                    <li>Komt de te plaatsen dakraam of lichtstraat op meer dan 50 centimeter afstand van de rand van het dakvlak? Ja: ga verder naar de volgende vraag. 
+                                        Nee: Indien dit <strong>niet</strong> het geval is moet u een omgevingsvergunning aanvragen!</li>
+                                    <li>Steekt het dakraam of lichtstraat meer dan 60 boven het dak uit? Nee: ga verder naar de volgende vraag. Ja: Indien dit <strong>wel</strong> het geval is moet u een omgevingsvergunning aanvragen!</li>
+                                    <li>Wordt het dakraam of lichtstraat op een plat dak geplaatst? Ja: <strong>geen</strong> omgevingsvergunning nodig! Nee: Indien dit <strong>niet</strong> het geval is, ga door naar de volgende vraag.</li>
+                                    <li>Komt de dakraam of lichtstraat in een achterdak? Ja, dan vergunningsvrij. Nee, ga door naar volgende vraag.</li>
+                                    <li>mt de dakraam of lichtstraat in een zijdakvlak? Bij ja, kijkt het zijdakvlak dan uit op de openbare weg of gebied? Bij ja omgevinsgvergunning aanvragen. Bij nee, vergunningsvrij bouwen</li>
+                                    <li>Komt de dakraam of lichtstraat in een voordakvlak? Bij ja, steekt de constructie buiten het dakvlak uit? Indien dit niet het geval is dan is een dakraam aan de voorkant vergunningsvrij te bouwen. 
+                                        Steekt de consctructie wel uit dan heeft u omgevingsvergunning nodig.</li>
+                                </ol>
+                                  
+                             
+                               </p>
+                                     
                             </div>
+                        
+
+                        </div>
+                        <div class="col-xs-12 col-sm-6">
+                         <h2>Vergunning nodig?</h2>
+                            <div class="contentpage">
+                                <p>
+                                    In sommige gevallen blijkt het dat u niet in aanmerking komt voor een omgevingsvergunningsvrij plaatsen van een dakraam. Dit kan afhangen van een aantal factoren. vergunningsvrij
+                                    betekend niet in alle gevallen regelvrij bouwen. Je hebt namelijk ook nog te maken met burenrecht en eventueel bouwbesluit. Wanneer je gaat verbuwen, moet je er voor zorgen dat je in de 
+                                    daarin gestelde regels voldoet.
+                                    Om meer te lezen en te weten te komen over de regels omtrent het plaatsen van een dakkapel? Raadpleeg dan onderstaande websites<br/>
+                                    - <a href="http://www.omgevingsloket.nl" target="_blank" title="Omgevingsloket">Omgevingsloket</a><br>
+                                    - <a href="https://www.rijksoverheid.nl/documenten/brochures/2010/07/20/dakkapellen" target="_blank" title="Plaatsen dakkapel rijksoverheid">Rijksoverheid</a>
+                                <br/>
+                                    Voor meer informatie kunt u <a href="contact.php" title="contact opnemen">contact</a> met ons opnemen
+                                    <br/><br/>
+                                    <a href="download/vergunning-dakramen-en-andere-daglichtvoorzieningen.pdf" title="vergunning of vergunnigsvrij een dakkapel bouwen">Download hier</a> de brochure om te bepalen of u omgevingsvergunningsvrij kunt bouwen of niet. 
+                                </p>
                             </div>
                         </div>
-                        <!-- end form -->
-                        
-                     
                     </div>
-                   
-                   
 
-                </div>
                 <!-- end info items -->
                 
                 
             </section>
             <!-- footer start -->
-            <?php include '_footer -contact.php';?>
+            <?php include '_footer.php';?>
             <!-- footer end -->
         </div>
     </main>   

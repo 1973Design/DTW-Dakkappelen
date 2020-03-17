@@ -44,61 +44,57 @@
             </header>
             <section id="featured">
                 <!-- foto banner -->
-                <div class="row d-flex  banner-page">
-                    <div>
-                        <h1 class="heading">Contact Opnemen</h1>
-                    </div>
-                   
-                </div>
+                <?php include '_header-buttons.php';?>
                <!-- end foto banner -->
               
                 <!-- info items -->
                 <div class="container">
-                    <div class="row justify-content-center">
-                        <!-- start form -->
-                        <div class="col-md-6 col-xsm-12">
-                            <div>
-                                <h2>Contact of offerte aanvragen?</h2>
-                                <p><strong>Vragen</strong> over het plaatsen van een dakraam of een <strong>offerte</strong> aanvragen? Vul onderstaande formulier in en wij nemen z.s.m. contact met u op.</p>
-                                <form method="post" action="form-to-email.php" name="myemailform">
-                                    <div class="form-group">
-                                        <label for="visitor_email">Email address</label>
-                                        <input type="email" name="visitor_email" class="form-control" id="exampleFormControlInput1" placeholder="naam@voorbeeld.com | type hier uw e-mail adres">
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="question">Vraag over:</label>
-                                        <select class="form-control" name="question" id="exampleFormControlSelect1">
-                                            <option>Dakramen Algemeen</option>
-                                            <option>VELUX dakraam</option>
-                                            <option>Fakro dakraam</option>
-                                            <option>Baskapel dakraam</option>
-                                            <option>Offerte aanvraag</option>
-                                        </select>
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="message">Opmerking:</label>
-                                        <textarea class="form-control" name="message" id="exampleFormControlTextarea1" rows="5"></textarea>
-                                    </div>
-                                    <button type="submit" class="btn btn-primary mb-2">Verstuur formulier</button>
-                                </form>
-                                <br/><br/>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-6">
+                            <h2>Dakkapel renovatie</h2>
+                            <div class="contentpage">
+                               <p>
+                                <strong>Denk je dat je dakkapel toe is aan renovatie, dan is het verstandig om eerst een aantal zaken door te nemen. Om zo de juiste beslissing te nemen.</strong><br/>
+                                 Het vervangen van je huidige dakkapel is wellicht iets dat je alleen overweegt wanneer de kosten van renovatie hoger uitpakken. In de meeste gevallen zullen de renovatiekosten lager zijn.
+                                <h4>Nieuw Dakkapel</h4>
+                                 Er kunnen verschillende reden zijn waardoor je toch kiest voor een nieuw dakkapel i.p.v. een renovatie. Dit kan zijn;
+                                 <ul class="list">
+                                    <li>Een nieuw dakkapel is een mooie upgrade van je huis, zoals verbreding of vergroting;</li>
+                                    <li>Het dakkapel is door de jaren heen aanzienlijk verouderd;</li>
+                                    <li>Externe factoren zoals weer en wind hebben het uiterlijk van het dakkapel veranderd;</li>
+                                    <li>Door achterstallig onderhoud is de contructie dusdanig verzwakt;</li>
+                                 </ul>
+                                 Mochten deze overwegingen er niet zijn, dan loont het wellicht om het dakraam te laten renoveren
+                               </p>
+                                     
                             </div>
+                        
+
+                        </div>
+                        <div class="col-xs-12 col-sm-6">
+                         <h2>Renoveren?</h2>
+                            <div class="contentpage">
+                                <p>
+                                    Wij kunnen samen met u vaststellen wat de beste en voordeligste keuze is. Mocht dit renovatie zijn, dan is de volgende vraag; voor welke materiaalsoort kies je?
+                                    <h4>Materiaalkeuze</h4>
+                                    Een <strong>kunststof</strong> dakkapel is het meest onderhoudsvriendelijk. Wanneer je kiest voor kunstof is er geen schilderwerk vereist. Met dit materiaal kan je 
+                                    dus onderhoudsarm genieten van extra ruimte en licht in je woning/kamer.<br/>
+                                    Een andere optie is <strong>hout</strong>. Een (op maat gemaakte) houten dakkapel vergt wat meer onderhoud maar tergelijkertijd geeft een houten exemplaar je woning
+                                    absolute karakteristieke uitstraling. Onze frefab dakkapelen zijn kant en klaar en sluiten daarom perfect aan op uw woning. We maken deze vooor u indien nodig speciaal op maat.
+                                    Er zijn dus verschillende mogelijkheden om uw dakkapel op de juiste manier te renoveren<br/>
+                                
+                                    Voor meer informatie kunt u <a href="contact.php" title="contact opnemen">contact</a> met ons opnemen
+                                </p>
                             </div>
                         </div>
-                        <!-- end form -->
-                        
-                     
                     </div>
-                   
-                   
 
-                </div>
                 <!-- end info items -->
                 
                 
             </section>
             <!-- footer start -->
-            <?php include '_footer -contact.php';?>
+            <?php include '_footer.php';?>
             <!-- footer end -->
         </div>
     </main>   

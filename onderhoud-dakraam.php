@@ -44,13 +44,7 @@
             </header>
             <section id="featured">
                 <!-- foto banner -->
-                <div class="row d-flex  banner-page">
-                    <div>
-                        <a href="#" class="btn button button-banner"> <i class="fas fa-file-invoice"></i> Vraag vrijblijvend een offerte aan  </a>
-                        <a href="#" class="btn button button-banner"> <i class="fas fa-phone"></i> Bel mij terug op een ander tijdstip </a>
-                    </div>
-                   
-                </div>
+                <?php include '_header-buttons.php';?>
                <!-- end foto banner -->
               
                 <!-- info items -->
@@ -100,6 +94,9 @@
                          kunststof exemplaar zelfs zo’n 50 jaar.<br/><br/>
                          Voor meer informatie kunt u <a href="contact.php" title="contact opnemen">contact</a> met ons opnemen
                         </p>
+                        <img src="images/items/dakraam-schoonmaken.png" alt="stappen om uw dakraam schoon te houden" />
+                        <hr/>
+                        <img src="images/items/dakraam-schoonmaken-velux.png" alt="onderhoud aan uw dakraam" />
                                
                         </div>
                         </div>

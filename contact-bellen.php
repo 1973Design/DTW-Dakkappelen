@@ -63,8 +63,8 @@
                                     <div class="form-group">
                                         <label for="visitor_email">Email address</label>
                                         <input type="email" name="visitor_email" class="form-control" id="exampleFormControlInput1" placeholder="naam@voorbeeld.com | type hier uw e-mail adres">
-                                        <label for="visitor_email">Telefoonnummer</label>
-                                        <input type="telefoon" name="visitor_email" class="form-control" id="exampleFormControlInput1" placeholder="Vul u telefoonnummer in">
+                                        <label for="visitor_phone">Telefoonnummer</label>
+                                        <input type="telefoon" name="visitor_phone" class="form-control" id="exampleFormControlInput1" placeholder="Vul u telefoonnummer in">
                                     </div>
                                     <div class="form-group">
                                         <label for="message">Opmerking:</label>

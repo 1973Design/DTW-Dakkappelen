@@ -135,50 +135,50 @@
                     <div class="row">
                         <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
                             <div class="blok blok-wit">
-                                <a href="" title="">
+                                <a href="tips-en-inspiratie-dakraam.php" title="Tips bij de keuze van een dakraam">
                                     <img src="images/items/dakraam-tips.png" alt="Tips bij de keuze van een dakraam" class="info-img">
                                 </a>
                                 <div class="blok-text">
                                     <h2>Tips om uw te helpen bij uw keuze</h2>
                                     <p> Handige tips bij de aankoop van een dakkapel</p>
                                 </div>
-                                <a href="" class="btn"> Tips en Inspiratie</a>
+                                <a href="tips-en-inspiratie-dakraam.php" class="btn"> Tips en Inspiratie</a>
                             </div>
                         </div>
                         <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
                             <div class="blok blok-wit">
-                                <a href="" title="">
+                                <a href="advies-dakramen.php" title="vrijblijvend advies plaatsen dakraam">
                                     <img src="images/items/dakraam-advies.png" alt="Advies bij het plaatsen van een dakraam" class="info-img">
                                 </a>
                                 <div class="blok-text">
                                     <h2>Vrijblijvend advies</h2>
                                     <p> Wij geven u vrijblijvend advies bij de aanschaf van een dakraam</p>
                                 </div>
-                                <a href="" class="btn"> Vrijblijvend</a>
+                                <a href="advies-dakraam.php" class="btn"> Vrijblijvend</a>
                             </div>
                         </div>
                         <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
                             <div class="blok blok-wit">
-                                <a href="" title="">
+                                <a href="dakraam-vergunning.php" title="stappenplan aanschaf dakraam">
                                     <img src="images/items/dakraam-stappen-plan.png" alt="stappen plan aanschaf dakraam" class="info-img">
                                 </a>
                                 <div class="blok-text">
                                     <h2>Stappenplan aanschaf dakraam</h2>
                                     <p> Een handig stappenplan van het gehele traject</p>
                                 </div>
-                                <a href="" class="btn"> Stappenplan</a>
+                                <a href="dakraam-vergunning.php" class="btn"> Stappenplan</a>
                             </div>
                         </div>
                         <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
                             <div class="blok blok-wit">
-                                <a href="" title="">
+                                <a href="contact.php" title="">
                                     <img src="images/items/dakraam-offerte.png" alt="Offerte aanvragen" class="info-img">
                                 </a>
                                 <div class="blok-text">
                                     <h2>Vrijblijvende offerte</h2>
                                     <p> Neem contact met ons op voor een vrijblijvende offerte</p>
                                 </div>
-                                <a href="" class="btn"> Offerte aanvragen</a>
+                                <a href="contact.php" class="btn"> Offerte aanvragen</a>
                             </div>
                         </div>
                     </div>

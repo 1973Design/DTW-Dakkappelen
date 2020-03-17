@@ -44,61 +44,69 @@
             </header>
             <section id="featured">
                 <!-- foto banner -->
-                <div class="row d-flex  banner-page">
-                    <div>
-                        <h1 class="heading">Contact Opnemen</h1>
-                    </div>
-                   
-                </div>
+               <?php include '_header-buttons.php';?>
                <!-- end foto banner -->
               
                 <!-- info items -->
                 <div class="container">
-                    <div class="row justify-content-center">
-                        <!-- start form -->
-                        <div class="col-md-6 col-xsm-12">
-                            <div>
-                                <h2>Contact of offerte aanvragen?</h2>
-                                <p><strong>Vragen</strong> over het plaatsen van een dakraam of een <strong>offerte</strong> aanvragen? Vul onderstaande formulier in en wij nemen z.s.m. contact met u op.</p>
-                                <form method="post" action="form-to-email.php" name="myemailform">
-                                    <div class="form-group">
-                                        <label for="visitor_email">Email address</label>
-                                        <input type="email" name="visitor_email" class="form-control" id="exampleFormControlInput1" placeholder="naam@voorbeeld.com | type hier uw e-mail adres">
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="question">Vraag over:</label>
-                                        <select class="form-control" name="question" id="exampleFormControlSelect1">
-                                            <option>Dakramen Algemeen</option>
-                                            <option>VELUX dakraam</option>
-                                            <option>Fakro dakraam</option>
-                                            <option>Baskapel dakraam</option>
-                                            <option>Offerte aanvraag</option>
-                                        </select>
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="message">Opmerking:</label>
-                                        <textarea class="form-control" name="message" id="exampleFormControlTextarea1" rows="5"></textarea>
-                                    </div>
-                                    <button type="submit" class="btn btn-primary mb-2">Verstuur formulier</button>
-                                </form>
-                                <br/><br/>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-6">
+                            <h2>Tips voor het kopen van een dakraam</h2>
+                            <div class="contentpage">
+                              <h4>Hoe wilt u de extra ruimte gebruiken?</h4> 
+                              <p>U kunt u dakraam voorzien van allerlei luxe opties. Het is slim om goed na te denken over wat
+                                  u in uw ruimte gaat gebruiken. Zo is een verduisterrolluik handig voor in een slaapkamer, maar
+                                  een lichtfilterend sunscreen wellicht beter voor uw thuiskantoor. Wij geven u graag een juist objectief advies.
+                              </p>
+                              <h4>Bepaal wat belangrijk voor u is</h4>
+                              <img src="images/items/dummy-tips.png" alt=""/>
+                              <p>
+                                  Wat vind u belangrijk? Waar moet volgens u een dakraam aan voldoen?. De volgorde hierin is belangrijk.
+                                  Eigenschappen als maximale ruimtewinst, onderhoudsarm, dakkapel zonder vergunning, snelle levertijd of beste isolatie.
+                                  Wij helpen u graag bij het maken van de juiste keuze. Ook in de keuze van het materiaal adviseren wij u graag.
+                              </p>
+                              <h4>Duurzaamheid</h4>
+                              <p>Wanner u een dakraam aanschaft wilt u daar jaren lang plezier van ondervinden. Zowel dakramen van hout als kunststof in ons 
+                                  assortiment kennen een solide contructie. Wilt u er helemaal geen omkijken naar hebben kies dan voor een kunststof dakraam met 
+                                kunststof kozijnen. wij adviseren u graag in het maken van de juiste keuze.</p>
                             </div>
+                            <h4>Welk type dakraam?</h4>
+                            <img src="images/items/dummy-tips.png" alt=""/>
+                            <p>Vraagt u zichzelf ook af wat voor type dakraam u moet aanschaffen. Moet het dakraam een schuindak, platdak of puntdak krijgen?
+                                Hoe groot kan de dakkapel worden? Wij zullen samen met uw gebruikerswensen de mogelijkheden bekijken.  </p>
+                        
+
+                        </div>
+                        <div class="col-xs-12 col-sm-6">
+                         <h2></h2>
+                            <div class="contentpage">
+                                <h4>Kies de juiste isolatie</h4>
+                                <p>Stem de isolatie waarde van uw dakraam af op de isolatiewaarde van de woning. Isolatiewaarde wordt uitgedrukt is RC-waarde.
+                                    Als er namelijk een dakraam met RC-waarde 5 op een woning met RC-waarde 3.5 wordt gemonteerd, gaat er alsnog warmte verloren vai
+                                    dak of wanden. Maximale isolatie voor een lage energierekening is een prettige gedachten. Neem <a href="contact.php">contact op</a> voor meer informatie over een juiste isolatie.
+                                </p>
+                                <h4>Bespaar!</h4>
+                                <img src="images/items/dummy-tips.png" alt=""/>
+                                <p>
+                                    Door slimme keuzes te maken, kunt u besparen op uw dakraam. Wanneer u uw dakraam vergunningsvrij kunt plaatsen, bespaart
+                                    u al gauw een flink bedrag. <a href="dakraam-vergunning.php" target="_blank">Bekijk hier</a> waar u aan moet voldoen om een dakraam vergunningsvrij te plaatsen.
+                                    Wij kunnen een lagere prijs aanbieden als er collectief meerdere dakramen aan worden geschaft. Dus bijvoorbeeld samen met uw buren.
+                                </p>
+                                <h4>Verzekering</h4>
+                                <p>Het plaatsen van een dakraam zorgt in de meeeste gevallen voor een woningwaarde stijging. Wellicht zult u uw opstalverzekering hierin
+                                    van op de hoogte moeten brengen
+                                </p>
+                                <img src="images/items/dummy-tips.png" alt=""/>
                             </div>
                         </div>
-                        <!-- end form -->
-                        
-                     
                     </div>
-                   
-                   
 
-                </div>
                 <!-- end info items -->
                 
                 
             </section>
             <!-- footer start -->
-            <?php include '_footer -contact.php';?>
+            <?php include '_footer.php';?>
             <!-- footer end -->
         </div>
     </main>   

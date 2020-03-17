@@ -46,7 +46,7 @@
                 <!-- foto banner -->
                 <div class="row d-flex  banner-page">
                     <div>
-                        <h1 class="heading">Contact Opnemen</h1>
+                        <h1 class="heading">Wat kost een dakraam?</h1>
                     </div>
                    
                 </div>
@@ -58,8 +58,9 @@
                         <!-- start form -->
                         <div class="col-md-6 col-xsm-12">
                             <div>
-                                <h2>Contact of offerte aanvragen?</h2>
-                                <p><strong>Vragen</strong> over het plaatsen van een dakraam of een <strong>offerte</strong> aanvragen? Vul onderstaande formulier in en wij nemen z.s.m. contact met u op.</p>
+                                <h2>Kosten</h2>
+                                <p>Het plaatsen van een dakraam hoeft nit duur te zijn. Het plaatsen van een dakraam kan al vanaf <strong>675 euro</strong>
+                            Wilt u meer informatie over de kosten van het plaatsen van een dakraam. Neem dan contact met ons op</p>
                                 <form method="post" action="form-to-email.php" name="myemailform">
                                     <div class="form-group">
                                         <label for="visitor_email">Email address</label>
@@ -68,6 +69,7 @@
                                     <div class="form-group">
                                         <label for="question">Vraag over:</label>
                                         <select class="form-control" name="question" id="exampleFormControlSelect1">
+                                            <option>Prijzen dakramen</option>
                                             <option>Dakramen Algemeen</option>
                                             <option>VELUX dakraam</option>
                                             <option>Fakro dakraam</option>

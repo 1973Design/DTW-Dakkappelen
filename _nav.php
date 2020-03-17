@@ -28,12 +28,12 @@
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                     <a class="dropdown-item" href="onderhoud-dakraam.php">Onderhoud</a>
-                    <a class="dropdown-item" href="#">Renovatie</a>
-                    <a class="dropdown-item" href="#">Vergunning</a>
+                    <a class="dropdown-item" href="renovatie-dakraam.php">Renovatie</a>
+                    <a class="dropdown-item" href="dakraam-vergunning.php">Vergunning</a>
                 </div>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="contact.php">Prijzen</a>
+                <a class="nav-link" href="prijzen.php">Prijzen</a>
             </li>
              <li class="nav-item">
                 <a class="nav-link" href="contact.php">Contact</a>
