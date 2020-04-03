@@ -1,6 +1,6 @@
 <html>
 <head>
-    <title>DTW Timmerwerken</title>
+    <title>DTWdakramen telefonisch contact opnemen</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="DTW Timmerwerken uw specialist in het plaatsen van dakramen maar ook verbouw en nieuwbouw porjecten. Vakmanschap - Scherpe prijs">
@@ -21,19 +21,7 @@
     <main>
         <div id="wrapper">
             <header>
-                <div class="top-header">
-                    <div class="row d-flex justify-content-around">
-                        <div class="p-2 top-button">
-                            <i class="fas fa-file-invoice"></i> Offerte aanvragen
-                        </div>
-                        <div class="p-2 top-button">
-                            <i class="fas fa-phone"></i> 06-23582650
-                        </div>
-                        <div class="p-2 top-button">
-                            <i class="fas fa-envelope"></i> Info@dtwdakramen.nl
-                        </div>
-                    </div>
-                </div>
+            <?php include '_top-header.php';?>
                 <div class="navigation-wrapper">
                     <div class="container">
                         <!-- start navigation -->
@@ -59,12 +47,12 @@
                         <div class="col-md-6 col-xsm-12">
                             <div>
                                 <p>Indien u graag teruggebeld wilt worden, vul dan onderstaande formulier in. We nemen dan z.s.m. contact met u op</p>
-                                <form method="post" action="*.php" name="myemailform">
+                                <form method="post" action="phone-to-email.php" name="myemailform">
                                     <div class="form-group">
                                         <label for="visitor_email">Email address</label>
                                         <input type="email" name="visitor_email" class="form-control" id="exampleFormControlInput1" placeholder="naam@voorbeeld.com | type hier uw e-mail adres">
-                                        <label for="visitor_phone">Telefoonnummer</label>
-                                        <input type="telefoon" name="visitor_phone" class="form-control" id="exampleFormControlInput1" placeholder="Vul u telefoonnummer in">
+                                        <label for="phone">Telefoonnummer[00-0000-0000]</label>
+                                        <input type="tel" id="phone" name="phone" pattern="[0-9]{2}-[0-9]{4}-[0-9]{4}" required class="form-control" id="exampleFormControlInput1" placeholder="Vul u telefoonnummer in 06-1234-5678">
                                     </div>
                                     <div class="form-group">
                                         <label for="message">Opmerking:</label>

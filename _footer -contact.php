@@ -22,5 +22,11 @@
                 </div>
             </div>
         </div>
+        <div class="row footer-small">
+            <div class="col-xs-12 col-md-6 offset-md-4">
+                DTWdakramen is onderdeel van <a href="http://www.dtwtimmerwerken.nl" target="_blank" class="white"> DTWtimmerwerken</a> | <a href="DTWdakramen-privacy.php" class="white">AVG/Privacy</a>
+            </div>
+
+        </div>
     </div>
 </footer>

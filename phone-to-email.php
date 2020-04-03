@@ -6,6 +6,7 @@ if(!isset($_POST['submit']))
 }
 $visitor_email = $_POST['visitor_email'];
 $question = $_POST['question'];
+$phone =  $_POST['phone'];
 $message = $_POST['message'];
 
 //Validate first
@@ -25,13 +26,13 @@ $email_from = 'info@dtwtimmerwerken.nl';//<== update the email address
 $email_subject = "Formulier DTWDakramen website";
 $email_body = "";
 $email_body .= "Je hebt een bericht ontvangen van: " .$visitor_email." |";
-$email_body .= "Over het volgende onderwerp: " .$question." |";
+$email_body .= "Telefonisch contact opnemen: " .$phone." |";
 $email_body .= "Waarin het volgende gevraagd wordt: " .$message."|";
 $email_body .= "";
     
 $to = "info@dtwtimmerwerken.nl";//<== update the email address
 $headers = "From:  $email_from \r\n";
-$headers .= "Reply-To: $visitor_phone \r\n";
+$headers .= "Reply-To: $visitor_email \r\n";
 //Send the email!
 mail($to,$email_subject,$email_body,$headers);
 //done. redirect to thank-you page.

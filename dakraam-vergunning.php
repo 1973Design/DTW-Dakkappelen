@@ -1,6 +1,6 @@
 <html>
 <head>
-    <title>DTW Timmerwerken</title>
+    <title>DTWdakramen vergunning dakraam aanvragen</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="DTW Timmerwerken uw specialist in het plaatsen van dakramen maar ook verbouw en nieuwbouw porjecten. Vakmanschap - Scherpe prijs">
@@ -21,19 +21,7 @@
     <main>
         <div id="wrapper">
             <header>
-                <div class="top-header">
-                    <div class="row d-flex justify-content-around">
-                        <div class="p-2 top-button">
-                            <i class="fas fa-file-invoice"></i> Offerte aanvragen
-                        </div>
-                        <div class="p-2 top-button">
-                            <i class="fas fa-phone"></i> 06-23582650
-                        </div>
-                        <div class="p-2 top-button">
-                            <i class="fas fa-envelope"></i> Info@dtwdakramen.nl
-                        </div>
-                    </div>
-                </div>
+                <?php include '_top-header.php';?>
                 <div class="navigation-wrapper">
                     <div class="container">
                         <!-- start navigation -->
@@ -57,6 +45,7 @@
                                 <strong>In heel veel gevallen is het plaatsen van een dakraam omgevingsvergunningsvrij, maar er zijn ook uitzonderingen</strong><br/>
                                 Mensen woonend in rijksmomument, gemeentelijke momument of in een rijksbeschermd stads- of dorpsgezicht kunnen niet vergunnigsvrij worden geplaatst. In
                                 dat geval is handig om contact op te nemen met de gemeente en te vragen naar de persoon die de monumentenzorg behandelt.
+                                <img src="images/service/vergunnings-vrij-dakkapel.png" alt="vergunningsvrije een dakkapel plaatsen" />
                                 <h4>Omgevingsvergunningsvrij</h4>
                                 Is dit bij u niet het geval dan kunt u in de meeste gevallen uw dakraam omgevingsvergunningsvrij bouwen. Hiervoor zijn een paar spelregels:
                                 <ol>
@@ -69,8 +58,6 @@
                                     <li>Komt de dakraam of lichtstraat in een voordakvlak? Bij ja, steekt de constructie buiten het dakvlak uit? Indien dit niet het geval is dan is een dakraam aan de voorkant vergunningsvrij te bouwen. 
                                         Steekt de consctructie wel uit dan heeft u omgevingsvergunning nodig.</li>
                                 </ol>
-                                  
-                             
                                </p>
                                      
                             </div>
@@ -91,6 +78,7 @@
                                     Voor meer informatie kunt u <a href="contact.php" title="contact opnemen">contact</a> met ons opnemen
                                     <br/><br/>
                                     <a href="download/vergunning-dakramen-en-andere-daglichtvoorzieningen.pdf" title="vergunning of vergunnigsvrij een dakkapel bouwen">Download hier</a> de brochure om te bepalen of u omgevingsvergunningsvrij kunt bouwen of niet. 
+                                    <img src="images/service/vergunnings-dakkapel.png" alt="vergunning aanvragen voor het plaatsen van een dakkapel" />
                                 </p>
                             </div>
                         </div>

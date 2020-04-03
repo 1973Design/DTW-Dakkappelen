@@ -1,6 +1,6 @@
 <html>
 <head>
-    <title>DTW Timmerwerken</title>
+    <title>DTWdakramen - Velux - Fakro - Baskapel</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="DTW Timmerwerken uw specialist in het plaatsen van dakramen maar ook verbouw en nieuwbouw porjecten. Vakmanschap - Scherpe prijs">
@@ -19,19 +19,7 @@
     <main>
         <div id="wrapper">
             <header>
-                <div class="top-header">
-                    <div class="row d-flex justify-content-around">
-                        <div class="p-2 top-button">
-                            <i class="fas fa-file-invoice"></i> Offerte aanvragen
-                        </div>
-                        <div class="p-2 top-button">
-                            <i class="fas fa-phone"></i> 06-23582650
-                        </div>
-                        <div class="p-2 top-button">
-                            <i class="fas fa-envelope"></i> Info@dtwdakramen.nl
-                        </div>
-                    </div>
-                </div>
+                <?php include '_top-header.php';?>
                 <div class="navigation-wrapper">
                     <div class="container">
                         <!-- start navigation -->
@@ -45,7 +33,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center">
-                        <h2 class="section-heading text-uppercase">DTWDakramen portfolio</h2>
+                        <h2 class="section-heading text-uppercase">DTWdakramen portfolio</h2>
                         <h3 class="section-subheading text-muted">DTWdakramen monteert dagelijks dakramen. Hieronder eeen greep uit de vele projecten </h3>
                     </div>
                 </div>
@@ -61,7 +49,7 @@
                         </a>
                         <div class="portfolio-caption">
                             <h4>Daglichtsysteem</h4>
-                            <p class="text-muted">4 daglichtsystemen</p>
+                            <p class="text-muted">Combinatie met meerdere dakramen</p>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-6 portfolio-item">
@@ -75,7 +63,7 @@
                         </a>
                         <div class="portfolio-caption">
                             <h4>Licht koepels</h4>
-                            <p class="text-muted">Licht koepels geplaatst</p>
+                            <p class="text-muted">Licht koepels plaatsen of vervangen</p>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-6 portfolio-item">
@@ -88,7 +76,7 @@
                             <img class="img-fluid" src="images/portfolio/03-thumbnail-velux-dakraam.jpg" alt="VELUX dakramen">
                         </a>
                         <div class="portfolio-caption">
-                            <h4>VELUX dakramen</h4>
+                            <h4>VELUX dakserre</h4>
                             <p class="text-muted">DTWdakramen is montagepartner van VELUX</p>
                         </div>
                     </div>
@@ -116,8 +104,8 @@
                                 <img class="img-fluid" src="images/portfolio/05-thumbnail-dakramen.jpg" alt="dakraam plaatsen">
                         </a>
                         <div class="portfolio-caption">
-                            <h4>Dakramen</h4>
-                            <p class="text-muted">Dakramen plaatsen</p>
+                            <h4>Baskapel</h4>
+                            <p class="text-muted">Baskapel plaatsen</p>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-6 portfolio-item">

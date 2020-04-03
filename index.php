@@ -1,6 +1,6 @@
 <html>
 <head>
-    <title>DTW Dakramen - Velux - Fakro - Baskapel</title>
+    <title>DTWdakramen - Velux - Fakro - Baskapel</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="DTW Timmerwerken uw specialist in het plaatsen van dakramen maar ook verbouw en nieuwbouw porjecten. Vakmanschap - Scherpe prijs">
@@ -21,19 +21,7 @@
     <main>
         <div id="wrapper">
             <header>
-                <div class="top-header">
-                    <div class="row d-flex justify-content-around">
-                        <div class="p-2 top-button">
-                            <i class="fas fa-file-invoice"></i> Offerte aanvragen
-                        </div>
-                        <div class="p-2 top-button">
-                            <i class="fas fa-phone"></i> 06-23582650
-                        </div>
-                        <div class="p-2 top-button">
-                            <i class="fas fa-envelope"></i> Info@dtwdakramen.nl
-                        </div>
-                    </div>
-                </div>
+                <?php include '_top-header.php';?>
                 <div class="navigation-wrapper">
                     <div class="container">
                         <!-- start navigation -->
@@ -237,7 +225,7 @@
                                     <li>15 jaar ervaring met het plaatsen van dakramen</li>
                                     <li>Elke woning is ander dus wij plaatsen met maatwerk</li>
                                     <li>Wij geven ruime garantie op dakramen</li>
-                                    <li>Door gebruik van EPDM-dakbedekking leveren we extra levensduur</li>
+                                    <li>Fabrikant geeft 10 jaar fabrieksgarantie</li>
                                     <li>Alleen de beste kwaliteit is voor ons voldoende</li>
                                     <li>Gecerificeerd in plaatsen van dakramen</li>
                                     <li>Kwaliteit staat bij ons voorop</li>

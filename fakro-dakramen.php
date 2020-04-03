@@ -1,6 +1,6 @@
 <html>
 <head>
-    <title>DTW Timmerwerken</title>
+    <title>DTWdakramen - Velux - Fakro - Baskapel</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="DTW Timmerwerken uw specialist in het plaatsen van dakramen maar ook verbouw en nieuwbouw porjecten. Vakmanschap - Scherpe prijs">
@@ -21,19 +21,7 @@
     <main>
         <div id="wrapper">
             <header>
-                <div class="top-header">
-                    <div class="row d-flex justify-content-around">
-                        <div class="p-2 top-button">
-                            <i class="fas fa-file-invoice"></i> Offerte aanvragen
-                        </div>
-                        <div class="p-2 top-button">
-                            <i class="fas fa-phone"></i> 06-23582650
-                        </div>
-                        <div class="p-2 top-button">
-                            <i class="fas fa-envelope"></i> Info@dtwdakramen.nl
-                        </div>
-                    </div>
-                </div>
+                <?php include '_top-header.php';?>
                 <div class="navigation-wrapper">
                     <div class="container">
                         <!-- start navigation -->
@@ -57,7 +45,10 @@
                                 <p>FAKRO dakramen wordt een steeds bekendere speler op het gebied van dakramen. FAKRO biedt een breed scala aan complete daglichtoplossingen voor hellende- en platte daken van ingenieus ontworpen
                                     dakramen, platdakramen, lichtkoepels en lichtstraten. DTWdakramen is gespecialiseerd in het plaatsen van FAKRO dakramen en geeft u hierin professioneel advies, daarnaast denkt DTWdakramen mee met architecten,
                                     woningcorporaties, aannemers en bouwbedrijven om zo tot het beste resultaat te komen.
-                                     </p>
+                                </p>
+                                <img src="images/algemeen/certificaat-vakmanschap.png" alt="logo vlok en kwaliteitsvakman"/>
+                                <p>Voor elke ruimte en elk plat of hellend dak heeft FAKRO een daglicht oplossing die zorgt voor 't mooiste licht in jouw huis. DTWdakramen is een adviseur en gespecialiseerd in 
+                                    montage van 't mooiste licht, <a href="http://www.hetmooistelicht.nl" target="_blank">www.hetmooistelicht.nl</a></p>
                             </div>
                         
 

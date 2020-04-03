@@ -1,6 +1,6 @@
 <html>
 <head>
-    <title>DTW Timmerwerken</title>
+    <title>DTWdakramen - Velux - Fakro - Baskapel</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="DTW Timmerwerken uw specialist in het plaatsen van dakramen maar ook verbouw en nieuwbouw porjecten. Vakmanschap - Scherpe prijs">
@@ -21,19 +21,7 @@
     <main>
         <div id="wrapper">
             <header>
-                <div class="top-header">
-                    <div class="row d-flex justify-content-around">
-                        <div class="p-2 top-button">
-                            <i class="fas fa-file-invoice"></i> Offerte aanvragen
-                        </div>
-                        <div class="p-2 top-button">
-                            <i class="fas fa-phone"></i> 06-23582650
-                        </div>
-                        <div class="p-2 top-button">
-                            <i class="fas fa-envelope"></i> Info@dtwdakramen.nl
-                        </div>
-                    </div>
-                </div>
+                <?php include '_top-header.php';?>
                 <div class="navigation-wrapper">
                     <div class="container">
                         <!-- start navigation -->
@@ -59,7 +47,7 @@
                                   een lichtfilterend sunscreen wellicht beter voor uw thuiskantoor. Wij geven u graag een juist objectief advies.
                               </p>
                               <h4>Bepaal wat belangrijk voor u is</h4>
-                              <img src="images/items/dummy-tips.png" alt=""/>
+                              <img src="images/items/tips-inspiratie-dakramen.png" alt="tips en inspiratie voor het plaatsen van een dakraam"/>
                               <p>
                                   Wat vind u belangrijk? Waar moet volgens u een dakraam aan voldoen?. De volgorde hierin is belangrijk.
                                   Eigenschappen als maximale ruimtewinst, onderhoudsarm, dakkapel zonder vergunning, snelle levertijd of beste isolatie.
@@ -71,7 +59,7 @@
                                 kunststof kozijnen. wij adviseren u graag in het maken van de juiste keuze.</p>
                             </div>
                             <h4>Welk type dakraam?</h4>
-                            <img src="images/items/dummy-tips.png" alt=""/>
+                            <img src="images/items/tips-inspiratie-dakramen3.png" alt="Welke type moet ik dakraam moet ik aanschaffen"/>
                             <p>Vraagt u zichzelf ook af wat voor type dakraam u moet aanschaffen. Moet het dakraam een schuindak, platdak of puntdak krijgen?
                                 Hoe groot kan de dakkapel worden? Wij zullen samen met uw gebruikerswensen de mogelijkheden bekijken.  </p>
                         
@@ -86,7 +74,7 @@
                                     dak of wanden. Maximale isolatie voor een lage energierekening is een prettige gedachten. Neem <a href="contact.php">contact op</a> voor meer informatie over een juiste isolatie.
                                 </p>
                                 <h4>Bespaar!</h4>
-                                <img src="images/items/dummy-tips.png" alt=""/>
+                                <img src="images/items/tips-inspiratie-dakramen2.png" alt="tips en inspiratie dakramen"/>
                                 <p>
                                     Door slimme keuzes te maken, kunt u besparen op uw dakraam. Wanneer u uw dakraam vergunningsvrij kunt plaatsen, bespaart
                                     u al gauw een flink bedrag. <a href="dakraam-vergunning.php" target="_blank">Bekijk hier</a> waar u aan moet voldoen om een dakraam vergunningsvrij te plaatsen.
@@ -96,7 +84,7 @@
                                 <p>Het plaatsen van een dakraam zorgt in de meeeste gevallen voor een woningwaarde stijging. Wellicht zult u uw opstalverzekering hierin
                                     van op de hoogte moeten brengen
                                 </p>
-                                <img src="images/items/dummy-tips.png" alt=""/>
+                                <img src="images/items/tips-inspiratie-dakramen4.png" alt="Woningwaarde stijgt bij het plaatsen van een dakraam"/>
                             </div>
                         </div>
                     </div>

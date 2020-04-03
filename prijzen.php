@@ -1,6 +1,6 @@
 <html>
 <head>
-    <title>DTW Timmerwerken</title>
+    <title>DTWdakramen hanteert goede prijs-kwaliteit verhouding</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="DTW Timmerwerken uw specialist in het plaatsen van dakramen maar ook verbouw en nieuwbouw porjecten. Vakmanschap - Scherpe prijs">
@@ -21,19 +21,7 @@
     <main>
         <div id="wrapper">
             <header>
-                <div class="top-header">
-                    <div class="row d-flex justify-content-around">
-                        <div class="p-2 top-button">
-                            <i class="fas fa-file-invoice"></i> Offerte aanvragen
-                        </div>
-                        <div class="p-2 top-button">
-                            <i class="fas fa-phone"></i> 06-23582650
-                        </div>
-                        <div class="p-2 top-button">
-                            <i class="fas fa-envelope"></i> Info@dtwdakramen.nl
-                        </div>
-                    </div>
-                </div>
+                <?php include '_top-header.php';?>
                 <div class="navigation-wrapper">
                     <div class="container">
                         <!-- start navigation -->
@@ -59,8 +47,10 @@
                         <div class="col-md-6 col-xsm-12">
                             <div>
                                 <h2>Kosten</h2>
-                                <p>Het plaatsen van een dakraam hoeft nit duur te zijn. Het plaatsen van een dakraam kan al vanaf <strong>675 euro</strong>
-                            Wilt u meer informatie over de kosten van het plaatsen van een dakraam. Neem dan contact met ons op</p>
+                                <p>Het plaatsen van een dakraam hoeft niet duur te zijn. Het plaatsen van een dakraam kan al vanaf <strong>675 euro.</strong>
+                            Wilt u meer informatie over de kosten van het plaatsen van een dakraam. Neem dan contact met ons op.
+                            <img src="images/service/opslag.png" title="offerte aanvraag dakramen" />
+                            </p>
                                 <form method="post" action="form-to-email.php" name="myemailform">
                                     <div class="form-group">
                                         <label for="visitor_email">Email address</label>

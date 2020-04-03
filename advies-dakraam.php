@@ -1,6 +1,6 @@
 <html>
 <head>
-    <title>DTW Timmerwerken</title>
+    <title>DTWdakramen - Velux - Fakro - Baskapel</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="DTW Timmerwerken uw specialist in het plaatsen van dakramen maar ook verbouw en nieuwbouw porjecten. Vakmanschap - Scherpe prijs">
@@ -52,8 +52,8 @@
                     <div class="row">
                         <div class="col-xs-12 col-sm-12">
                             <h2>Vrijblijvend advies</h2>
-                            <img src="images/items/dummy-tips.png" alt=""/>
-                            <img src="images/items/dummy-tips.png" alt=""/>
+                            <img src="images/items/advies-dakraam1.png" alt="advies dakramen"/>
+                            <img src="images/items/advies-dakraam2.png" alt="advies dakramen op maat"/>
                             <div class="contentpage">
                               <p>
                                 Wij geven u graag vrijblijvend advies over het plaatsen van uw dakraam.<br/> Voor het een advies op maat komen wij graag bij u langs.

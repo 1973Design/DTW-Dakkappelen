@@ -91,9 +91,12 @@ body {
   .secondary{
     color:#6ebd47;
   }
+
   .tertaire, .tertaire a, .tertaire a:hover{
     color:#fff;
   }
+
+
 
   p{
     padding:5px 20px 5px 5px;
@@ -120,6 +123,9 @@ body {
   }
   li{
 
+  }
+  .top-button a{
+    color:white;
   }
 /* ===================================
 3. navigatie
@@ -342,4 +348,9 @@ article.home-content{
 ==================================== */
 .footer-blok{
   background:#656565;
+  color:#fff;
+}
+
+.footer-small{
+  font-size:0.8rem;
 }

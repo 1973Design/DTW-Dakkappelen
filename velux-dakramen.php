@@ -1,6 +1,6 @@
 <html>
 <head>
-    <title>DTW Timmerwerken</title>
+    <title>DTWdakramen - Velux - Fakro - Baskapel</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="DTW Timmerwerken uw specialist in het plaatsen van dakramen maar ook verbouw en nieuwbouw porjecten. Vakmanschap - Scherpe prijs">
@@ -21,19 +21,7 @@
     <main>
         <div id="wrapper">
             <header>
-                <div class="top-header">
-                    <div class="row d-flex justify-content-around">
-                        <div class="p-2 top-button">
-                            <i class="fas fa-file-invoice"></i> Offerte aanvragen
-                        </div>
-                        <div class="p-2 top-button">
-                            <i class="fas fa-phone"></i> 06-23582650
-                        </div>
-                        <div class="p-2 top-button">
-                            <i class="fas fa-envelope"></i> Info@dtwdakramen.nl
-                        </div>
-                    </div>
-                </div>
+                <?php include '_top-header.php';?>
                 <div class="navigation-wrapper">
                     <div class="container">
                         <!-- start navigation -->
@@ -67,7 +55,7 @@
                                         <li><a href="https://www.velux.nl/producten/dakkapel" target="_blank" title="VELUX dakkapellen">VELUX dakkapellen</a></li>
                                     </ul>
                                     Een VELUX dakraam geeft uw meer daglicht, meer ruimte en meer ventilatie met keuze aan kleuren en designs.
-                                    <strong>DTWdakramen</strong> heeft ruime ervaring in het plaatsen van VELUX dakramen en is daarom ook  <a href="https://montageservice.velux.nl/montagepartner/dtw-timmerwerken-alkmaar" target="_blank">VELUX Montageeservice</a> sinds 2008.
+                                    <strong>DTWdakramen</strong> heeft ruime ervaring in het plaatsen van VELUX dakramen en is daarom ook  <a href="https://montageservice.velux.nl/montagepartner/dtw-timmerwerken-alkmaar" target="_blank">VELUX Montageservice</a> sinds 2008.
                                      </p>
                             </div>
                         

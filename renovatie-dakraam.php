@@ -1,6 +1,6 @@
 <html>
 <head>
-    <title>DTW Timmerwerken</title>
+    <title>DTWdakramen - Velux - Fakro - Baskapel</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="DTW Timmerwerken uw specialist in het plaatsen van dakramen maar ook verbouw en nieuwbouw porjecten. Vakmanschap - Scherpe prijs">
@@ -21,19 +21,7 @@
     <main>
         <div id="wrapper">
             <header>
-                <div class="top-header">
-                    <div class="row d-flex justify-content-around">
-                        <div class="p-2 top-button">
-                            <i class="fas fa-file-invoice"></i> Offerte aanvragen
-                        </div>
-                        <div class="p-2 top-button">
-                            <i class="fas fa-phone"></i> 06-23582650
-                        </div>
-                        <div class="p-2 top-button">
-                            <i class="fas fa-envelope"></i> Info@dtwdakramen.nl
-                        </div>
-                    </div>
-                </div>
+                <?php include '_top-header.php';?>
                 <div class="navigation-wrapper">
                     <div class="container">
                         <!-- start navigation -->
@@ -55,7 +43,9 @@
                             <div class="contentpage">
                                <p>
                                 <strong>Denk je dat je dakkapel toe is aan renovatie, dan is het verstandig om eerst een aantal zaken door te nemen. Om zo de juiste beslissing te nemen.</strong><br/>
-                                 Het vervangen van je huidige dakkapel is wellicht iets dat je alleen overweegt wanneer de kosten van renovatie hoger uitpakken. In de meeste gevallen zullen de renovatiekosten lager zijn.
+                                 Het vervangen van je huidige dakkapel is wellicht iets dat je alleen overweegt wanneer de kosten van renovatie hoger uitpakken. Door samen met ons de verschillende aspecten te bekijken kan
+                                 er een juiste beslissing worden gemaakt, die ook op de lange termijn en financieel goed zal uitpakken.
+                                 <img src="images/service/onderhoud.png" title="onderhoud dakraam" />
                                 <h4>Nieuw Dakkapel</h4>
                                  Er kunnen verschillende reden zijn waardoor je toch kiest voor een nieuw dakkapel i.p.v. een renovatie. Dit kan zijn;
                                  <ul class="list">
@@ -83,7 +73,8 @@
                                     absolute karakteristieke uitstraling. Onze frefab dakkapelen zijn kant en klaar en sluiten daarom perfect aan op uw woning. We maken deze vooor u indien nodig speciaal op maat.
                                     Er zijn dus verschillende mogelijkheden om uw dakkapel op de juiste manier te renoveren<br/>
                                 
-                                    Voor meer informatie kunt u <a href="contact.php" title="contact opnemen">contact</a> met ons opnemen
+                                    Voor meer informatie kunt u <a href="contact.php" title="contact opnemen">contact</a> met ons opnemen.
+                                    <img src="images/service/opslag.png" title="opslag dakramen" />
                                 </p>
                             </div>
                         </div>

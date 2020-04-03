@@ -1,6 +1,6 @@
 <html>
 <head>
-    <title>DTWdakramen contact opnemen</title>
+    <title>DTWdakramen privacy en AVG statement</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="DTW Timmerwerken uw specialist in het plaatsen van dakramen maar ook verbouw en nieuwbouw porjecten. Vakmanschap - Scherpe prijs">
@@ -34,7 +34,7 @@
                 <!-- foto banner -->
                 <div class="row d-flex  banner-page">
                     <div>
-                        <h1 class="heading">Contact Opnemen</h1>
+                        <h1 class="heading">Privacybeleid</h1>
                     </div>
                    
                 </div>
@@ -46,30 +46,31 @@
                         <!-- start form -->
                         <div class="col-md-6 col-xsm-12">
                             <div>
-                                <h2>Contact of offerte aanvragen?</h2>
-                                <p><strong>Vragen</strong> over het plaatsen van een dakraam of een <strong>offerte</strong> aanvragen? Vul onderstaande formulier in en wij nemen z.s.m. contact met u op.</p>
-                                <form method="post" action="form-to-email.php" name="myemailform">
-                                    <div class="form-group">
-                                        <label for="visitor_email">Email address</label>
-                                        <input type="email" name="visitor_email" class="form-control" id="exampleFormControlInput1" placeholder="naam@voorbeeld.com | type hier uw e-mail adres">
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="question">Vraag over:</label>
-                                        <select class="form-control" name="question" id="exampleFormControlSelect1">
-                                            <option>Dakramen Algemeen</option>
-                                            <option>VELUX dakraam</option>
-                                            <option>Fakro dakraam</option>
-                                            <option>Baskapel dakraam</option>
-                                            <option>Offerte aanvraag</option>
-                                        </select>
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="message">Opmerking:</label>
-                                        <textarea class="form-control" name="message" id="exampleFormControlTextarea1" rows="5"></textarea>
-                                    </div>
-                                    <button type="submit" class="btn btn-primary mb-2">Verstuur formulier</button>
-                                </form>
-                                <br/><br/>
+                                <h2>DTWdakramen Privacybeleid/AVG</h2>
+                                <p>
+                                    Het bewaken van uw privacy en het zorgdragen voor naleving van de bepalingen die zijn opgenomen in de Algemene Verordening 
+                                    Gegevensbescherming (AVG) vinden wij erg belangrijk . Hieronder valt het zorgvuldig omgaan met uw (persoons)gegevens.</p>
+                                <p>Dit zijn de gegevens die wij van u ontvangen:</p>
+                                <p>Naam en adresgegevens<br/>
+                                    Contactgegevens<br/>
+                                    Bankrekeningnummer</p>
+                                <p>Deze gegevens hebben wij nodig voor het opmaken van een offerte, om contact met u op te nemen en te controleren of uw betalingen bij ons zijn binnengekomen. 
+                                    Wij hebben uw gegevens in ons bezit tot het moment waarop beide partijen aan alle verplichtingen hebben voldaan. Mocht het niet tot een overeenkomst leiden, 
+                                    dan houden wij uw gegevens in ons bezit tot de datum waartegen ons aanbod aan u is komen te vervallen.</p>
+                                <p>Na uitvoering van de opdracht houden wij uw gegevens slechts met uw instemming in ons bezit als daarvoor een aan te wijzen doel is. 
+                                    Hier stemt u in ieder geval mee in op het moment dat wij een overeenkomst aangaan voor meerdere jaren.</p>
+                                <p>Wij zullen uw gegevens slechts delen met derden indien u daarvoor uitdrukkelijke schriftelijke toestemming hebt gegeven.</p>
+                                <p>Onze website maakt geen gebruik van functionele cookies. Voor meer info over cookies op de website. <a href="https://www.consumentenbond.nl/internet-privacy/wat-zijn-cookies" target="_blank" >Klik hier</a>.</p>
+                               <p>U heeft de mogelijkheid om uw gegevens bij ons op te vragen, te wijzigen en u kunt ons verzoeken uw gegevens te verwijderen uit ons bestand. Uw verzoek zal zo spoedig mogelijk verwerkt worden. U kunt hiervoor contact opnemen met:
+                                   <strong>
+                                   DTW Timmerwerken<br/>
+                                    Dave van der Meulen<br/>
+                                    Tinnegieterstraat 14, 1825 DT Alkmaar<br/>
+                                    info@dakramen.nl <br/>
+                                   </strong>
+                               </p>
+                               <p>Wij dragen zorg voor een goede beveiliging van de locatie waar wij uw gegevens opslaan. Wij behouden ons het recht voor om de inhoud van dit privacybeleid te allen tijde te wijzigen.</p>
+                                <p>U kunt voor vragen of opmerkingen gerust contact met ons opnemen door een mail te sturen naar info@dtwdakramen.nl</p>
                             </div>
                             </div>
                         </div>

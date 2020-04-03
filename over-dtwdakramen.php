@@ -1,6 +1,6 @@
 <html>
 <head>
-    <title>DTW Timmerwerken</title>
+    <title>DTWdakramen - Velux - Fakro - Baskapel</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="DTW Timmerwerken uw specialist in het plaatsen van dakramen maar ook verbouw en nieuwbouw porjecten. Vakmanschap - Scherpe prijs">
@@ -21,19 +21,7 @@
     <main>
         <div id="wrapper">
             <header>
-                <div class="top-header">
-                    <div class="row d-flex justify-content-around">
-                        <div class="p-2 top-button">
-                            <i class="fas fa-file-invoice"></i> Offerte aanvragen
-                        </div>
-                        <div class="p-2 top-button">
-                            <i class="fas fa-phone"></i> 06-23582650
-                        </div>
-                        <div class="p-2 top-button">
-                            <i class="fas fa-envelope"></i> Info@dtwdakramen.nl
-                        </div>
-                    </div>
-                </div>
+                <?php include '_top-header.php';?>
                 <div class="navigation-wrapper">
                     <div class="container">
                         <!-- start navigation -->
@@ -68,7 +56,7 @@
                          <h2> Onze referentie</h2>
                          <div class="contentpage">
                                 <p>Wij streven naar optimale kwaliteit en service en 100% tevreden klanten. Lees daarom onze reviews op:
-                                    <a href="https://montageservice.velux.nl/montagepartner/dtw-timmerwerken-alkmaar" target="_blank">VELUX Montageeservice</a>
+                                    <a href="https://montageservice.velux.nl/montagepartner/dtw-timmerwerken-alkmaar" target="_blank">VELUX Montageservice</a>
 
                                 </p>
                                 <img src="images/algemeen/dtwdakramen-werk-in-uitvoering.png" alt="DTWdakramen gewspecialiseerd in het plaatsen van dakramen"/>

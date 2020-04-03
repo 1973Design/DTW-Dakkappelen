@@ -1,8 +1,18 @@
 @media screen and (max-width: 576px) {
-
-    .blok{
+    .blok {
         min-height: 180px;
-        margin-bottom:30px;
+        margin-bottom: 30px;
     }
-   
+    .button-banner {
+        transform: translateX(10%);
+    }
+    img {
+        width: 100%;
+    }
+    .navbar-brand {
+        margin-right: 1rem !important;
+    }
+}
+
+
 }

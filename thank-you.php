@@ -1,6 +1,6 @@
 <html>
 <head>
-    <title>DTWdakramen contact opnemen</title>
+    <title>DTW Timmerwerken</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="DTW Timmerwerken uw specialist in het plaatsen van dakramen maar ook verbouw en nieuwbouw porjecten. Vakmanschap - Scherpe prijs">
@@ -21,7 +21,6 @@
     <main>
         <div id="wrapper">
             <header>
-                <?php include '_top-header.php';?>
                 <div class="navigation-wrapper">
                     <div class="container">
                         <!-- start navigation -->
@@ -32,53 +31,56 @@
             </header>
             <section id="featured">
                 <!-- foto banner -->
-                <div class="row d-flex  banner-page">
-                    <div>
-                        <h1 class="heading">Contact Opnemen</h1>
-                    </div>
-                   
-                </div>
+                <?php include '_header-buttons.php';?>
                <!-- end foto banner -->
               
                 <!-- info items -->
                 <div class="container">
-                    <div class="row justify-content-center">
-                        <!-- start form -->
-                        <div class="col-md-6 col-xsm-12">
-                            <div>
-                                <h2>Contact of offerte aanvragen?</h2>
-                                <p><strong>Vragen</strong> over het plaatsen van een dakraam of een <strong>offerte</strong> aanvragen? Vul onderstaande formulier in en wij nemen z.s.m. contact met u op.</p>
-                                <form method="post" action="form-to-email.php" name="myemailform">
-                                    <div class="form-group">
-                                        <label for="visitor_email">Email address</label>
-                                        <input type="email" name="visitor_email" class="form-control" id="exampleFormControlInput1" placeholder="naam@voorbeeld.com | type hier uw e-mail adres">
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="question">Vraag over:</label>
-                                        <select class="form-control" name="question" id="exampleFormControlSelect1">
-                                            <option>Dakramen Algemeen</option>
-                                            <option>VELUX dakraam</option>
-                                            <option>Fakro dakraam</option>
-                                            <option>Baskapel dakraam</option>
-                                            <option>Offerte aanvraag</option>
-                                        </select>
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="message">Opmerking:</label>
-                                        <textarea class="form-control" name="message" id="exampleFormControlTextarea1" rows="5"></textarea>
-                                    </div>
-                                    <button type="submit" class="btn btn-primary mb-2">Verstuur formulier</button>
-                                </form>
-                                <br/><br/>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="contentpage">
+                                
+                                <h3>Bedankt voor het invullen van het formulier. We nemen zo snel mogelijk contact met uw op!
+                                </h3>
                             </div>
+                        
+
+                        </div>  
+        
+                    </div>
+                    <!-- info 2-->
+
+                    <!-- end info 2 -->
+                    <div class="content">
+                        <div class="row">
+                            <div class="col-xs-12 col-md-6">
+                                <div class="content-l">
+                                    <div class="row">
+                                        <div class="col-xs-12 col-md-6">
+                                        <img src="images/logos/velux.png" alt="velux dakramen">
+                                        </div>
+                                        <div class="col-xs-12 col-md-6 subcontent">
+                                            <p class="bold">DTW dakramen is een erkend montagepartner</p>
+                                        </div>
+                                    </div>
+                                </div>
+                              
+                            </div>
+                            <div class="col-xs-12 col-md-6">
+                            <div class="content-r">
+                                <div class="row">
+                                        <div class="col-xs-12 col-md-6">
+                                            <img src="images/logos/fakro.png"  alt="fakro dakramen">
+                                        </div>
+                                        <div class="col-xs-12 col-md-6 subcontent">
+                                           <p class="bold">DTW dakramen is een erkend montagepartner</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
                             </div>
                         </div>
-                        <!-- end form -->
-                        
-                     
                     </div>
-                   
-                   
 
                 </div>
                 <!-- end info items -->
@@ -86,7 +88,7 @@
                 
             </section>
             <!-- footer start -->
-            <?php include '_footer -contact.php';?>
+            <?php include '_footer.php';?>
             <!-- footer end -->
         </div>
     </main>   

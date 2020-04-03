@@ -1,6 +1,6 @@
 <html>
 <head>
-    <title>DTW Timmerwerken</title>
+    <title>DTWdakramen - Velux - Fakro - Baskapel</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="DTW Timmerwerken uw specialist in het plaatsen van dakramen maar ook verbouw en nieuwbouw porjecten. Vakmanschap - Scherpe prijs">
@@ -21,19 +21,7 @@
     <main>
         <div id="wrapper">
             <header>
-                <div class="top-header">
-                    <div class="row d-flex justify-content-around">
-                        <div class="p-2 top-button">
-                            <i class="fas fa-file-invoice"></i> Offerte aanvragen
-                        </div>
-                        <div class="p-2 top-button">
-                            <i class="fas fa-phone"></i> 06-23582650
-                        </div>
-                        <div class="p-2 top-button">
-                            <i class="fas fa-envelope"></i> Info@dtwdakramen.nl
-                        </div>
-                    </div>
-                </div>
+                <?php include '_top-header.php';?>
                 <div class="navigation-wrapper">
                     <div class="container">
                         <!-- start navigation -->
@@ -76,8 +64,9 @@
                                  <h4>5. Schilderwerk onderhouden</h4>
                                  Houten dakramen hebben schilderwerk onderhoud nodig. Controleer tijdens je halfjaarlijkse schoonmaakbeurt ook direct de staat van het schilderwerk. Laat om de paar jaar nieuwe schilderwerk
                                   aanbrengen en laat beschadigingen direct repareren. Zo voorkom je lelijke vlekken in het schilderwerk en het ontstaan van houtrot.
+                                  <img src="images/service/dakraam-wassen2.png" title="dakraam wassen" /> 
                                </p>
-                                     
+                                   
                             </div>
                         
 
@@ -89,6 +78,7 @@
                          Grijp zeker niet naar de hogedrukspuit, wanneer je de dakkapel wil reinigen. Door de enorme kracht van deze reiniger, bestaat de kans dat je de boel beschadigd. 
                          Zo kan de verf op de toplaag gaan bladderen of zelfs het kunststof aangetast worden. Als je toch gebruik wil maken van stromend water, dan raden wij aan om te kiezen 
                          voor een gieter of tuinslang.
+                         <img src="images/service/dakraam-wassen.png" title="dakraam wassen" />
                          <h3>Levensduur</h3>
                          Een dakkapel die regelmatig een onderhoudsbeurt krijgt, gaat langer mee. Wanneer deze van hout is kun je rekenen op een levensduur van 25 jaar en bij een 
                          kunststof exemplaar zelfs zo’n 50 jaar.<br/><br/>
